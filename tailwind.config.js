@@ -6,8 +6,10 @@ export default {
       colors: {
         customGrey: "rgb(255, 255, 255)",
       },
-      spacing: {
-        "custom-width-1": "1182px",
+
+      fontFamily: {
+        anton: ["Anton", "sans-serif"],
+        koulen: ["Koulen", "cursive"],
       },
     },
   },

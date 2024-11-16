@@ -12,7 +12,7 @@ function SideBar() {
     //. Setting top: 0, for example, tells the browser to stick the element to the
     //top of its parent block when the element's top edge reaches the top of the
     // viewport.
-    <div className="sticky top-0 text-base border-white mt-5 min-w-screen flex   items-center">
+    <div className="sticky top-0 text-base border-white mt-5 min-w-screen flex items-center">
       <Name />
       <div className=" mt-2 white flex gap-10 ml-24 mr-28">
         <Home isActive={color === "Home"} onClick={() => setColor("Home")} />
